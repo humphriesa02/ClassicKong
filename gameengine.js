@@ -25,6 +25,7 @@ class GameEngine {
         this.ctx = ctx;
         this.startInput();
         this.timer = new Timer();
+        ASSET_MANAGER.pauseBackgroundMusic();
     };
 
     start() {
